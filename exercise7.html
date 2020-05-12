@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recreate a structure</title>
+	<style>
+		p {
+			color: yellow;
+		}
+		span {
+			color: blue;
+		}
+		div {
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<span>
+			I'm span1 in Div1.
+			<p>It's paragraph1 in Div1, Span1</p>
+				<span>
+					I'm just a span in paragraph 1
+				</span>
+			<p>It's paragraph2 in Div1, Span1</p>
+				<span>
+					I'm just a span in paragraph 2
+				</span>
+			<p>It's paragraph3 in Div1, Span1</p>
+				<span>
+					I'm just a span in paragraph 3
+				</span>
+		</span>
+	</div>
+
+	<div>
+		<p>I'm a paragraph in Div2</p>
+	</div>
+
+	<div>
+		<span>
+			I'm span2 in Div3.
+			<p>It's paragraph1 in Span2</p>
+			<p>It's paragraph2 in Span2</p>
+		</span>
+
+	</div>
+
+	<div>
+		<p>I'm a paragraph in Div4</p>
+	</div>
+
+	<div>
+		<span>
+			I'm span3 in Div5.
+			<p>I'm a paragraph in Div5</p>
+		</span>
+	</div>	
+	
+</body>
+</html>
